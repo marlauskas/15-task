@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15 užduotis</title>
+  <link rel="stylesheet" href="/app/css/style.css">
+</head>
+
+<body>
+  <h1>Trys man patinkantys dalykai</h1>
+  <button onclick="changeHeader(event, 'pirmas')">Automobiliai</button>
+  <button onclick="changeHeader(event, 'antras')">Žvejyba</button>
+  <button onclick="changeHeader(event, 'trecias')">Gaminimas</button>
+
+  <div class="tab" id="pirmas">
+    <img
+      src="https://images.unsplash.com/photo-1563720359838-8d9cdd36ceab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      alt="mercedes">
+    <p>Automobiliai - jais pradėjau domėtis dar vaikystėje, skaityti įvairius žurnalus kurie rašydavo straipsnius
+      automobilių tematika. Prabėgus kiek laiko pasidarė smalsu kaip ir kodėl veikia tam tikri automobilio komponentai
+      ir apskritai kaip viskas sąveikauja tarpusavyje. Gavus vairuotojo pažymėjimą ir pirmą automobilį tapo įdomu kaip
+      galima pačiam jį susiremontuoti. Dabar labiausiai domina Mercedes-Benz ir BMW markės automobiliai.</p>
+  </div>
+
+  <div class="tab" id="antras">
+    <img
+      src="https://images.unsplash.com/photo-1545450660-3378a7f3a364?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      alt="fishing">
+    <p>Žvejyba man visada atrodė smalsus užsiemimas, pirmą kartą žvejoti pabandžiau turbūt kaip ir dauguma - vaikystėje.
+      Gaudant žuvį kartais gali užplūsti ilgas laukimas ir azartas kada gi ta žuvis pagaliau užkibs, tuo pačiu tai labai
+      puikus laiko praleidimo būdas nes dažniausiai laiką praleidžiame lauke, gryname ore, tad net ir nieko nepagavus
+      stengiuosi nenukabinti nosies.</p>
+  </div>
+
+  <div class="tab" id="trecias">
+    <img
+      src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      alt="cooking">
+    <p>Laisvalaikiu, o ypač savaitgalį mėgstu gaminti maistą namuose. Su savo mergina kiekvieną savaitgalį bandome
+      atrasti naujų receptų ir pagal juos pasigaminti įvairius patiekalus. Esame išrankūs maisto produktams, todėl iš
+      ryto pasidarę produktų sąrašą važiuojame apsipirkti į turgų ir kitas nišines parduotuves. Grįžę namo kartu
+      gaminame maistą, kiekvienas yra atsakingas už savo patiekalo ruošimo dalį. Maisto ruoša kartu ne tik sustiprina
+      santykius, bet yra ir puiki atsipalaidavimo terapija.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
